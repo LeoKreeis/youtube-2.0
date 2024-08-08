@@ -1,0 +1,150 @@
+body 
+{  
+color:  white;
+
+background: black;
+
+margin-bottom: 2px;
+
+font-family: "Chakra Petch", sans-serif;
+}
+
+
+header
+{
+    border-bottom: solid 2px rgb(17, 126, 216);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(17, 126, 216);
+}
+
+
+.chamada
+{
+    background: rgb(211, 43, 79);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 60;
+    padding-right: 60;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto
+{
+    margin-right: 1%;
+    padding-left: 20;
+    font-size: 30;
+}
+h1
+{
+    padding-right: 20;
+    font-size: 30
+}
+
+
+p
+{
+    font-size: 20;
+}
+
+
+.video
+{
+    padding-right: 0;
+    border: solid 1px rgb(3, 255, 234);
+}
+
+
+.imagens-review
+{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 40;
+}
+.imagens-review img
+{
+    height: 240;
+    opacity: 0.8;
+}
+.imagens-review img:hover
+{
+    opacity: 1.0;
+    border: solid 1px rgb(3, 255, 234);
+}
+
+
+.imagens-gamepreis
+{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 40;
+}
+.imagens-gamepreis img
+{
+    height: 240;
+    opacity: 0.8;
+}
+.imagens-gamepreis img:hover
+{
+    opacity: 1.0;
+    border: solid 1px rgb(3, 255, 234);
+}
+
+
+.imagens-outros
+{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 40;
+    margin-bottom: 90;
+}
+.imagens-outros img
+{
+    height: 240;
+    opacity: 0.8;
+}
+.imagens-outros img:hover
+{
+    opacity: 1.0;
+    border: solid 1px rgb(3, 255, 234);
+}
+.catalogo-review
+{
+    padding-left: 20;
+    padding-right: 20;
+    padding-bottom: 50;
+}
+
+
+.catalogo-review h2
+{
+    color: rgb(17, 126, 216);
+    margin-top: 10;
+}
+
+
+.catalogo-review h3
+{
+    color: rgb(17, 126, 216);
+    font-size: 24;
+    margin-top: 90;
+}
+
+
+.catalogo-review h4
+{
+    color: rgb(17, 126, 216);
+    font-size: 24;
+    margin-top: 90;
+}
+h4
+{
+    color: white;
+    font-size:10;
+    margin-top: 90;
+}
